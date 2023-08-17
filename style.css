@@ -1,3 +1,7 @@
+body {
+  font-family: Tahoma;
+}
+
 .container {
   display: flex;
   align-items: center; 
@@ -13,6 +17,19 @@
  .description {
   font-size: 14px;
   text-shadow: none;
+ }
+
+.topbarIndex {
+  overflow: hidden;
+}
+
+ .topbarIndex a {
+  color: white;
+  float: none;
+  display: flexbox;
+  size: 100%;
+  margin-top: 0%;
+  margin-left: 15%;
  }
 
  .topbar {
@@ -70,9 +87,34 @@
   text-align: center;
  }
 
- .indexBody body{
-  background-image: url(./image/le-sixieme-reve-I5e9-2EPmJU-unsplash.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100%;
+ .welcomeText {
+  color: white;
+  size: 100%;
+  font-size: 80px;
+  margin-top: 15%;
+  margin-left: 15%;
  }
+
+ .links {
+  list-style: none;
+  padding: 0;
+  padding-left: 50%;
+  margin-top: 20px;
+}
+
+.links li {
+  margin-bottom: 10px;
+}
+
+.links a {
+  font-size: 30px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.links a:hover {
+  color: #FF9900;
+}
+
