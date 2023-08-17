@@ -1,0 +1,76 @@
+.container {
+  display: flex;
+  align-items: center; 
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 15px;
+ }
+ 
+ .text {
+   font-size: 50px;
+   text-shadow: 2px 2px 2px #000000;
+ }
+
+ .description {
+  font-size: 14px;
+  text-shadow: none;
+ }
+
+ .topbar {
+  overflow: hidden;
+  background-color: #F0386B;
+ }
+
+ .topbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+ }
+
+ .topbar a:hover {
+  background-color: #F8C0C8;
+  color: #6B2D5C;
+ }
+
+ .containerInfo {
+  display: flex;
+  align-items: center; 
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 15px;
+ }
+
+ .titleInfo h2 {
+  font-size: 36px;
+  color: #E2C290;
+  text-shadow: 2px 2px 2px #F8C0C8;
+ }
+
+ .textInfo {
+  font-size: 24px;
+ }
+
+ .tableStudy table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+ }
+
+ .tableStudy th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+ }
+
+ .tableExam th, td {
+  border: 0px solid black;
+  border-collapse: collapse;
+  text-align: center;
+ }
+
+ .tableExam table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+ }
