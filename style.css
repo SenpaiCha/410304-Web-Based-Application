@@ -69,3 +69,10 @@
   border-collapse: collapse;
   text-align: center;
  }
+
+ .indexBody body{
+  background-image: url(./image/le-sixieme-reve-I5e9-2EPmJU-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+ }
