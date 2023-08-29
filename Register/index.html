@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แบบฟอร์มทดสอบปัญญา</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+
+        <form class="container" action="showdata.php" method="post" autocomplete="off">
+            <!-- The remaining user input fields go here -->
+            <!-- ... -->
+            <div class="main-container">
+                <div class="main-messages">
+                    <div class="message received">
+                        <h1>ยินดีต้อนรับเข้าสู่แบบฟอร์มทดสอบปัญญา</h1>
+                    </div>
+                    <div class="message received">
+                        <p>กรุณากรอกชื่อของคุณ:</p>
+                    </div>
+                    <div class="user-input">
+                        <input type="text" name="pp_name" id="pp_name" size="30" placeholder="ชื่อของคุณ" autofocus required>
+                    </div>
+                    <div class="message received">
+                        <p>กรุณาเลือกเพศของคุณ:</p>
+                    </div>
+                    <div class="message received">
+                        <select name="pp_sex" id="pp_sex">
+                            <option value="เพศชาย">เพศชาย</option>
+                            <option value="เพศหญิง">เพศหญิง</option>
+                            <option value="เพศอื่นๆ">อื่นๆ</option>
+                        </select>
+                    </div>
+                    <div class="message received">
+                        <p>คำถามที่ 1: ไก่กับไข่อะไรเกิดก่อนกัน?</p>
+                    </div>
+                    <div class="message received">
+                        <input type="radio" id="1_1" name="pp_question1" value="ผิด">
+                        <label for="1_1">ไก่</label>
+                        <input type="radio" id="1_2" name="pp_question1" value="ผิด">
+                        <label for="1_2">ไข่</label>
+                        <input type="radio" id="1_3" name="pp_question1" value="ถูกต้องแล้วค้าบบบ">
+                        <label for="1_3">ถ้าไม่มีไก่ ไข่ก็ไม่ได้เกิด แต่ถ้าไม่มีไข่ ไก๋ก็ไม่ได้เกิด</label>
+                    </div>
+                </div>
+                <br>
+            <div class="user-input">
+                <button type="submit">ส่ง</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
