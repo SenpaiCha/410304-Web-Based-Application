@@ -11,6 +11,7 @@
 echo "ชื่อผู้ทำแบบฟอร์ม :".$_POST["pp_name"]."<br>";
 echo "เพศผู้เข้าทำแบบฟอร์ม :".$_POST["pp_sex"]."<br>";
 echo "คำถามข้อที่ 1 ตอบ ".$_POST["pp_question1"]."<br>";
+echo "คำถามข้อที่ 2 ตอบ ".$_POST["pp_question2"]."<br>";
 
 ?>
 </body>
